@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c75e26a3-460d-401e-a9db-f10c3dc7c378" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="2JxiZNQH7py7CS5hes4JsOVFIZO" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="18.13.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/views/partials" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Desktop\ahm doc\my websites\js projects\Node, Express, Mongo\Loyiha\boom shop\views\partials" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c75e26a3-460d-401e-a9db-f10c3dc7c378" name="Default Changelist" comment="" />
+      <created>1673026189215</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1673026189215</updated>
+      <workItem from="1673026190358" duration="2424000" />
+      <workItem from="1673110798040" duration="3042000" />
+      <workItem from="1673116653370" duration="795000" />
+      <workItem from="1673247915985" duration="4936000" />
+      <workItem from="1673262161058" duration="7094000" />
+      <workItem from="1673281503726" duration="594000" />
+      <workItem from="1673359131603" duration="7710000" />
+      <workItem from="1673413032015" duration="7052000" />
+      <workItem from="1673520104584" duration="6977000" />
+      <workItem from="1673539241255" duration="3038000" />
+      <workItem from="1673600262579" duration="593000" />
+      <workItem from="1673613571888" duration="3922000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="181" key="#Plugins" timestamp="1673365942907">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="552" y="181" key="#Plugins/0.0.1920.1080@0.0.1920.1080" timestamp="1673365942907" />
+    <state x="766" y="398" key="#Usage_Scope" timestamp="1673026787864">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="766" y="398" key="#Usage_Scope/0.0.1920.1080@0.0.1920.1080" timestamp="1673026787864" />
+    <state x="414" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1673248869834">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="414" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1673248869834" />
+    <state x="721" y="342" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1673522001277">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="721" y="342" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1673522001277" />
+    <state x="740" y="295" key="FileChooserDialogImpl" timestamp="1673026780630">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="740" y="295" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1673026780630" />
+    <state x="461" y="185" key="SettingsEditor" timestamp="1673248889328">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="461" y="185" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1673248889328" />
+    <state x="677" y="348" key="jetbrains.nodejs.interpreters-dialog" timestamp="1673026804438">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="677" y="348" key="jetbrains.nodejs.interpreters-dialog/0.0.1920.1080@0.0.1920.1080" timestamp="1673026804438" />
+    <state x="616" y="250" key="run.anything.popup" timestamp="1673522985895">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="616" y="250" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1673522985895" />
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1673541994142">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1673541994142" />
+  </component>
+</project>

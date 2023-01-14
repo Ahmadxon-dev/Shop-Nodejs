@@ -1,0 +1,46 @@
+<div class="container py-3">
+    <header>
+        <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
+            <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
+                <img src="shop.png" alt="shop" width="40" height="40">
+                <span class="fs-4">Shop</span>
+            </a>
+
+            <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+                {{#if isProduct}}
+                    <a class="me-3 py-2 text-dark " href="/products">Products</a>
+                {{else}}
+                    <a class="me-3 py-2 text-dark text-decoration-none" href="/products">Products</a>
+                {{/if}}
+                {{#if isAdd}}
+                    <a class="me-3 py-2 text-dark " href="/add">Add</a>
+                {{else}}
+                    <a class="me-3 py-2 text-dark text-decoration-none" href="/add">Add</a>
+                {{/if}}
+                <div class="btn-group">
+                    {{#if token}}
+                        <a href="/logout" class=" btn btn-danger text-decoration-none active text-light">Logout</a>
+                    {{else}}
+
+
+                    {{#if isLogin}}
+                        <a href="/login" class=" btn btn-primary text-decoration-none active text-light" aria-current="page">Login</a>
+                    {{else}}
+                        <a href="/login" class=" btn btn-primary text-decoration-none text-light">Login</a>
+                    {{/if}}
+
+                    {{#if isRegister}}
+                        <a href="/register" class="btn btn-primary text-decoration-none text-light  active" aria-current="page">Register</a>
+                    {{else}}
+                        <a href="/register" class="btn btn-primary text-deco    ration-none text-light" type="button">Register</a>
+                    {{/if}}
+
+
+                    {{/if}}
+
+                </div>
+            </nav>
+
+        </div>
+    </header>
+</div>
