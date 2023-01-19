@@ -1,1 +1,36 @@
-    <h1>Main page</h1>
+{{# if products.length}}
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        {{# each products}}
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img src='{{image}}' alt="" width="419" height="317">
+                    <div class="card-body">
+                        <p class="card-text fw-bold">{{title}}</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <p class="p-0 m-0">{{formatData createdAt}}</p>
+                            <small class="text-muted fs-5">{{price}}.00$</small>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <div class="btn-group btn-group-sm">
+                            <a type='button' class='btn btn-outline-primary' href='/product/{{_id}}'>Detail</a>
+                            <!--                middleware da global o'zgaruvchi qilib "" token "" ni ogandek bottayam ovolish mumkin-->
+                            {{#if @root.token }}
+                                {{#equal user @root.userId}}
+                                    <a class="btn btn-outline-secondary" href="/edit-product/{{_id}}" type="button">Edit</a>
+                                    <form action="/delete-product/{{_id}}" method="post" class=" btn btn-outline-danger m-0 " >
+                                        <button type="submit" class="bgt ddd">Delete</button>
+                                    </form>
+                                {{/equal}}
+                            {{/if}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        {{/each}}
+    </div>
+{{else}}
+    <h3>No Products</h3>
+{{/if}}
+

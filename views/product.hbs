@@ -1,0 +1,24 @@
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h1>Product Details</h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <img src="{{product.image}}" class="img-responsive" width="100%" alt="Product Image">
+            </div>
+        </div>
+        <div class="col-md-8">
+            <div class="card">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><strong>Name: </strong>{{product.title}}</li>
+                    <li class="list-group-item"><strong>Price: </strong>{{product.price}}$</li>
+                    <li class="list-group-item"><strong>Description: </strong>{{product.description}}</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

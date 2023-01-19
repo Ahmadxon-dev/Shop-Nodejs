@@ -6,6 +6,7 @@ const dotenv = require('dotenv')
 const flash = require('connect-flash')
 const mongoose = require('mongoose')
 const varMiddleware = require('./middleware/var')
+const userMiddleware = require('./middleware/user')
 const session  = require('express-session')
 const cookieParser = require('cookie-parser') // browserdagi cookie larni olish uchun cookie parser kutubxonasi ornatildi
 const app = express();
@@ -13,8 +14,11 @@ const PORT = process.env.PORT || 5000
 dotenv.config()
 const hbs = create({
     defaultLayout: "main",
-    extname: "hbs"
+    extname: "hbs",
+    helpers:require('./utils/index')
+
 })
+
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(cookieParser())
@@ -23,10 +27,11 @@ app.use(express.static('images'))
 app.use(session({secret: "sammi", resave:false, saveUninitialized:false}))
 app.use(flash())
 app.use(varMiddleware)
-
+app.use(userMiddleware)
 app.engine('hbs', hbs.engine)
 app.set('view engine', 'hbs')
 app.set('views', './views')
+
 
 
 app.use(authRoutes)

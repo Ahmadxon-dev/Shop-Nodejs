@@ -33,6 +33,7 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Desktop\ahm doc\my websites\js projects\Node, Express, Mongo\Loyiha\boom shop\views\partials" />
+      <recent name="D:\Desktop\ahm doc\my websites\js projects\Node, Express, Mongo\Loyiha\boom shop\views" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -57,6 +58,22 @@
       <workItem from="1673539241255" duration="3038000" />
       <workItem from="1673600262579" duration="593000" />
       <workItem from="1673613571888" duration="3922000" />
+      <workItem from="1673676876281" duration="222000" />
+      <workItem from="1673799309111" duration="874000" />
+      <workItem from="1673802746908" duration="676000" />
+      <workItem from="1673803436761" duration="104000" />
+      <workItem from="1673803549080" duration="1377000" />
+      <workItem from="1673880786125" duration="1230000" />
+      <workItem from="1673883464690" duration="5096000" />
+      <workItem from="1673890866432" duration="44000" />
+      <workItem from="1673954718450" duration="14313000" />
+      <workItem from="1674049052447" duration="240000" />
+      <workItem from="1674050108360" duration="592000" />
+      <workItem from="1674055095587" duration="8979000" />
+      <workItem from="1674114334052" duration="6482000" />
+      <workItem from="1674137511031" duration="471000" />
+      <workItem from="1674138106619" duration="594000" />
+      <workItem from="1674150154128" duration="4062000" />
     </task>
     <servers />
   </component>
@@ -84,9 +101,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="740" y="295" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1673026780630" />
-    <state x="461" y="185" key="SettingsEditor" timestamp="1673248889328">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="599" y="163" width="998" height="708" key="SettingsEditor" timestamp="1673803539847">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="599" y="163" width="998" height="708" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1673803539847" />
     <state x="461" y="185" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1673248889328" />
     <state x="677" y="348" key="jetbrains.nodejs.interpreters-dialog" timestamp="1673026804438">
       <screen x="0" y="0" width="1920" height="1080" />
